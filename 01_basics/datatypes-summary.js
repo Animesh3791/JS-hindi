@@ -32,4 +32,35 @@ const myFunction = function() {
     console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+let myBikename = "pulsarns"
+let anothername = myBikename
+anothername  = "Maestro"
+
+console.log(anothername);
+console.log(myBikename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Animesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+

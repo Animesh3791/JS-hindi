@@ -17,7 +17,7 @@ console.log("Animesh")
     // symbol => unique
 
     //object
-    // null ois an object
+    // null is an object
 console.log(typeof undefined); // otput as undefined
 console.log(typeof null); // output as object
 

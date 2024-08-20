@@ -33,7 +33,7 @@ const myn1 = myArr.slice(1, 3) // 1st and second is included 3rd is not/last ran
 console.log(myn1)
 console.log("B ", myArr);
 
-const myn2 = myArr.splice(1, 3) // Splice manipulate orignal array as it rmoves the portion from orignal array.
+const myn2 = myArr.splice(1, 3) // Splice manipulate orignal array as it removes the portion from orignal array.
 console.log("C ", myArr);
 console.log(myn2);
 
